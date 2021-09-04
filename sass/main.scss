@@ -1,0 +1,22 @@
+@import "./base/modern-normalize";
+@import "./utils/styles";
+@import "./utils/placeholders";
+@import "./utils/variables";
+@import "./utils/container-section";
+@import "./components/page-header/page-header";
+@import "./components/common/logo";
+@import "./components/index-main/menu-container";
+@import "./components/index-main/hero";
+@import "./components/common/main-btn";
+@import "./components/index-main/modal/modal";
+@import "./components/index-main/modal/modal-checkbox";
+@import "./components/index-main/advantage";
+@import "./components/index-main/team";
+@import "./components/common/social-links";
+@import "./components/index-main/clients";
+@import "./components/page-footer/footer";
+@import "./components/portfolio-main/filter-btn";
+@import "./components/portfolio-main/portfolio";
+@import "./components/portfolio-main/portfolio-gallery";
+@import "./components/portfolio-main/portfolio-card";
+
