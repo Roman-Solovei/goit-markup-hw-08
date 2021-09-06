@@ -1,14 +1,12 @@
 .advantage {
-  @media screen and (max-width: 767px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
   }
 
   @media screen and (min-width: 1200px) {
-    display: flex;
-    // flex-wrap: nowrap;
-    // justify-content: center;
+    display: flex;    
   }
 }
 
@@ -19,8 +17,8 @@
 }
 
 .advantage__item {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
 
 
   @media screen and (max-width: 767px) {
@@ -29,7 +27,7 @@
     }
   }
   
-    @media screen and (max-width: 1199px) 
+    @media screen and (min-width: 768px) and (max-width: 1199px)
        {
   width: calc((100% - 4 * 15px) / 2);
   margin: 15px;  
@@ -45,7 +43,6 @@
       margin-right: 30px;
       }
   }
-
 }
 
 .advantage__title {
