@@ -1,13 +1,13 @@
 .gallery {
   
-  @media screen and (min-width: 481px) 
+  @media screen and (min-width: 768px) 
   // and (max-width: 1199px)
    {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px 0 -15px;
+    margin:-15px;
   }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1200px) {
    display: flex;
   flex-wrap: wrap;
   }
@@ -23,16 +23,16 @@
     margin-bottom: 30px;
   }
 
-   @media screen and (min-width: 481px)
+   @media screen and (min-width: 768px)
   //  and (max-width: 1199px) 
    {
   width: calc((100% - 4 * 15px) / 2);
-  margin: 0 15px 15px 15px;
+  margin: 15px;
    }
 
-   @media screen and (min-width: 769px) {
+   @media screen and (min-width: 1200px) {
 
     width: calc((100% - 6 * 15px) / 3);
-  margin: 15px;  
+    margin: 15px;  
    } 
 }

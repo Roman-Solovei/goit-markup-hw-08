@@ -8,7 +8,7 @@
   display: inline-flex;
   flex-direction: column;
 
-  @media screen and (min-width: 769px) {    
+  @media screen and (min-width: 1200px) {    
     margin-right: 70px;    
   }
 }
@@ -61,13 +61,13 @@
   text-align: center;
    margin-top: 60px;
 
-  @media screen and (min-width: 481px) 
+  @media screen and (min-width: 768px) 
   // and (max-width:1199px)
    {
     margin-top: 0;    
   }
 
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1200px) {
     margin-top: 0;  
     text-align: start;  
   }
@@ -89,7 +89,7 @@
   margin-top: 60px;
   width: 100%;
 
-  @media screen and (min-width: 481px) 
+  @media screen and (min-width: 768px) 
   and (max-width:768px)
    {
    display: flex;
@@ -97,7 +97,7 @@
    align-items: center;
   }
 
-  @media screen and (min-width: 769px) {    
+  @media screen and (min-width: 1200px) {    
     margin-top: 0; 
     margin-left: 93px;   
   }
@@ -107,24 +107,23 @@
 .email-footer__form {
   margin-top: 20px;
 
-  @media screen and (min-width: 481px) 
-  and (max-width:768px)
+  @media screen and (min-width: 768px)  
    {
    display: flex;
    flex-direction: column;
    align-items: center;
   }
 
-  @media screen and (min-width: 769px) {    
+  @media screen and (min-width: 1200px) {    
     display: flex;       
   }
 
   }
 
-.main-btn__footer--center {
-  display: flex;
-  justify-content: center;
-}
+// .main-btn__footer--center {
+//   display: flex;
+//   justify-content: center;
+// }
 
 .main-btn__footer {
   @extend .main-btn;
@@ -142,7 +141,7 @@
   color: $primary-color;
   text-transform: uppercase;
 
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1200px) {
    text-align: start; 
   }
 
@@ -161,13 +160,13 @@
   background: $background-color;
   color: rgba(255, 255, 255, 0.6);
 
-  @media screen and (min-width: 481px) 
-  and (max-width:768px) 
+  @media screen and (min-width: 768px) 
+  and (max-width:1199px) 
   {
    min-width: 450px;
   }
 
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1200px) {
     margin-bottom: 0;   
   }  
 }
@@ -175,7 +174,7 @@
 .email-footer__field {
   margin: 0;
 
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1200px) {
     margin-right: 12px;  
     width: 258px;  
   }
