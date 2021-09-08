@@ -5,8 +5,8 @@
 }
 
 .footer__adress-box {
-  display: inline-flex;
-  flex-direction: column;
+  // display: inline-flex;
+  // flex-direction: column;
 
   @media screen and (min-width: 1200px) {    
     margin-right: 70px;    
@@ -19,7 +19,8 @@
 
 .footer__social {
   display: inline-flex;
-  flex-direction: column;  
+  flex-direction: column; 
+  margin-top: 60px; 
 }
 
 .sociai-item {
@@ -36,6 +37,10 @@
 
 .adress__list {
   text-align: center;
+
+  @media screen and (min-width: 1200px) {    
+    text-align: start;    
+  }
 }
 
 .adress--margin {
@@ -58,8 +63,7 @@
   color: $primary-color;
   text-transform: uppercase;
   margin-bottom: 20px;
-  text-align: center;
-   margin-top: 60px;
+  text-align: center;  
 
   @media screen and (min-width: 768px)  
    {
@@ -85,8 +89,7 @@
 }
 
 .email-footer {
-  margin-top: 60px;
-  width: 100%;
+  margin-top: 60px;  
 
   @media screen and (min-width: 768px) 
   and (max-width:768px)
@@ -98,7 +101,7 @@
 
   @media screen and (min-width: 1200px) {    
     margin-top: 0; 
-    margin-left: 93px;   
+    margin-left: auto;   
   }
   
 }
@@ -170,7 +173,7 @@
 
   @media screen and (min-width: 1200px) {
     margin-right: 12px;  
-    width: 100%;  
+    width: 358px;  
   }
 }
 
